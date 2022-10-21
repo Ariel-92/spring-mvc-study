@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class HomeController {
 
-    @RequestMapping(value="/spring-mvc-demo")
+    @RequestMapping(value="/")
     public String showPage() {
         return "main-menu";
     }
